@@ -8,7 +8,7 @@
 #0.2 Introduction<br/>
 #0.3 What are Building<br/>
 #0.4 Theory Requirements<br/>
-#0.5 Software and Installation[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%230_INTRODUCTION/%230.5_Software_and_Installation.md)<br/>
+#0.5 Software and Installation [[Summary]](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%230_INTRODUCTION/%230.5_Software_and_Installation.md)<br/>
 
 ### #1 THEORY
 #1.0 Main Package<br/>
