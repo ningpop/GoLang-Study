@@ -11,7 +11,7 @@
 
 ### #1 THEORY
 #1.0 Main Package [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.0_Main_Package.md)]<br/>
-#1.1 Package and Imports [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.1_Package_and_Imports.md)]<br/>
+#1.1 Packages and Imports [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.1_Packages_and_Imports.md)]<br/>
 #1.2 Variables and Constants<br/>
 #1.3 Function part One<br/>
 #1.4 Function part Two<br/>
