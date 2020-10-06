@@ -2,9 +2,28 @@ package main // 사용하는 패키지명
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/ningpop/learngo/something"
 )
+
+func multifly(a int, b int) int {
+	/*
+		함수는 아래처럼 작성할 수도 있다.
+		func multifly (a, b int) int {
+			...
+		}
+	*/
+	return a * b
+}
+
+func lenAndUpper(name string) (int, string) { // 반환값을 두개 갖는 함수
+	return len(name), strings.ToUpper(name)
+}
+
+func repeatMe(words ...string) { // 여러개의 입력값을 한번에 받는 함수
+	fmt.Println(words)
+}
 
 // name := "ningpop" // 사용 불가
 func main() {
@@ -24,4 +43,12 @@ func main() {
 
 	name := "ningpop" // 사용 가능
 	fmt.Println(name)
+
+	/* #1.3 Functions part One */
+	fmt.Println(multifly(2, 2))
+
+	totalLength, upperName := lenAndUpper("ningpop") // 두개의 값을 반환하는 함수
+	fmt.Println(totalLength, upperName)
+
+	repeatMe("ningpop", "lynn", "dal", "marl", "flynn") // 여러개의 입력값을 한번에 전달
 }
