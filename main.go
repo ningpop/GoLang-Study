@@ -17,8 +17,18 @@ func multifly(a int, b int) int {
 	return a * b
 }
 
+/*
 func lenAndUpper(name string) (int, string) { // 반환값을 두개 갖는 함수
 	return len(name), strings.ToUpper(name)
+}
+*/
+
+/* #1.4 Functions part Two */
+func lenAndUpper(name string) (length int, uppercase string) { // 'naked' return 사용
+	defer fmt.Println("I'm done") // defer 문 사용: 함수의 실행이 끝난 뒤 최종적으로 실행되는 문장
+	length = len(name)
+	uppercase = strings.ToUpper(name)
+	return
 }
 
 func repeatMe(words ...string) { // 여러개의 입력값을 한번에 받는 함수
