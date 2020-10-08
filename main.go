@@ -35,6 +35,15 @@ func repeatMe(words ...string) { // 여러개의 입력값을 한번에 받는 �
 	fmt.Println(words)
 }
 
+/* #1.5 for, range, ...args */
+func superAdd(numbers ...int) int {
+	total := 0
+	for _, number := range numbers { // 매개변수의 numbers의 범위만큼 순회
+		total += number
+	}
+	return total
+}
+
 // name := "ningpop" // 사용 불가
 func main() {
 	/* #1.1 Packages and Imports */
@@ -61,4 +70,8 @@ func main() {
 	fmt.Println(totalLength, upperName)
 
 	repeatMe("ningpop", "lynn", "dal", "marl", "flynn") // 여러개의 입력값을 한번에 전달
+
+	/* #1.5 for, range, ...args */
+	result := superAdd(1, 2, 3, 4, 5, 6)
+	fmt.Println(result)
 }
