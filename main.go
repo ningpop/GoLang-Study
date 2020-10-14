@@ -44,6 +44,14 @@ func superAdd(numbers ...int) int {
 	return total
 }
 
+/* #1.6 If with a Twist */
+func canIDrink(age int) bool {
+	if koreanAge := age + 2; koreanAge < 18 { // variable expression
+		return false
+	}
+	return true
+}
+
 // name := "ningpop" // 사용 불가
 func main() {
 	/* #1.1 Packages and Imports */
@@ -74,4 +82,7 @@ func main() {
 	/* #1.5 for, range, ...args */
 	result := superAdd(1, 2, 3, 4, 5, 6)
 	fmt.Println(result)
+
+	/* #1.6 If with a Twist */
+	fmt.Println(canIDrink(16))
 }
