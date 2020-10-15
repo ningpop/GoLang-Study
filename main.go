@@ -45,11 +45,24 @@ func superAdd(numbers ...int) int {
 }
 
 /* #1.6 If with a Twist */
+/*
 func canIDrink(age int) bool {
 	if koreanAge := age + 2; koreanAge < 18 { // variable expression
 		return false
 	}
 	return true
+}
+*/
+
+/* #1.7 Switch */
+func canIDrink(age int) bool {
+	switch koreanAge := age + 2; koreanAge {
+	case 10:
+		return false
+	case 18:
+		return true
+	}
+	return false
 }
 
 // name := "ningpop" // 사용 불가
