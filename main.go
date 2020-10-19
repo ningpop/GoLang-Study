@@ -98,4 +98,10 @@ func main() {
 
 	/* #1.6 If with a Twist */
 	fmt.Println(canIDrink(16))
+
+	/* #1.8 Pointers! */
+	a := 2
+	b := &a
+	*b = 20
+	fmt.Println(a)
 }

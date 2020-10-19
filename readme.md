@@ -18,7 +18,7 @@
 #1.5 for, range, ...args [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.5_for,_range,_...args.md)]<br/>
 #1.6 If with a Twist [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.6_If_with_a_Twist.md)]<br/>
 #1.7 Switch [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.7_Switch.md)]<br/>
-#1.8 Pointers!<br/>
+#1.8 Pointers! [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.8_Pointers!.md)]<br/>
 #1.9 Arrays and Slices<br/>
 #1.10 Maps<br/>
 #1.11 Structs<br/>
