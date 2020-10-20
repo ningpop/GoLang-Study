@@ -104,4 +104,13 @@ func main() {
 	b := &a
 	*b = 20
 	fmt.Println(a)
+
+	/* #1.9 Arrays and Slices */
+	names := []string{"ningpop", "nico", "lynn"}
+
+	// append(names, "flynn") // 데이터를 추가한 새로운 slice 생성
+	fmt.Println(names)
+
+	names = append(names, "flynn") // 데이터를 추가하여 기존의 slice에 대입
+	fmt.Println(names)
 }
