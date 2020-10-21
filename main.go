@@ -113,4 +113,13 @@ func main() {
 
 	names = append(names, "flynn") // 데이터를 추가하여 기존의 slice에 대입
 	fmt.Println(names)
+
+	/* #1.10 Maps */
+	nico := map[string]string{"name": "ningpop", "age": "25"}
+	for _, value := range nico {
+		fmt.Println(value)
+	}
+	for key, _ := range nico {
+		fmt.Println(key)
+	}
 }
