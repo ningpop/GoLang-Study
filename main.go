@@ -7,6 +7,12 @@ import (
 	"github.com/ningpop/learngo/something"
 )
 
+type person struct {
+	name    string
+	age     int
+	favFood []string
+}
+
 func multifly(a int, b int) int {
 	/*
 		함수는 아래처럼 작성할 수도 있다.
@@ -122,4 +128,11 @@ func main() {
 	for key, _ := range nico {
 		fmt.Println(key)
 	}
+
+	/* #1.11 Structs */
+	favFood := []string{"kimchi", "ramen"}
+	ningpop := person{"ningpop", 25, favFood}
+	// ningpop := person{name: "ningpop", age: 25, favFood: favFood} // 사용 가능
+	// ningpop := person{name: "ningpop", 25, favFood} // 불가능, 에러 발생
+	fmt.Println(ningpop)
 }

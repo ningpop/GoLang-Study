@@ -20,5 +20,40 @@
 #1.7 Switch [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.7_Switch.md)]<br/>
 #1.8 Pointers! [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.8_Pointers!.md)]<br/>
 #1.9 Arrays and Slices [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.9_Arrays_and_Slices.md)]<br/>
-#1.10 Maps  [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.10_Maps.md)]<br/>
-#1.11 Structs<br/>
+#1.10 Maps [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.10_Maps.md)]<br/>
+#1.11 Structs [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.11_Structs.md)]<br/>
+
+### #2 BANK & DICTIONARY PROJECTS
+#2.0 Account + NewAccount<br/>
+#2.1 Methods part One<br/>
+#2.2 Methods part Two<br/>
+#2.3 Finishing Up<br/>
+#2.4 Dictionary part One<br/>
+#2.5 Add Method<br/>
+#2.6 Update Delete<br/>
+
+### #3 URL CHECKER & GO ROUTINES
+#3.0 hitURL<br/>
+#3.1 Slow URLChecker<br/>
+#3.2 Goroutines<br/>
+#3.3 Channels<br/>
+#3.4 Channels Recap<br/>
+#3.5 One more Recap<br/>
+#3.6 URLChecker + Go Routines<br/>
+#3.7 FAST URLChecker<br/>
+
+### #4 JOB SCRAPPER
+#4.0 getPages part One<br/>
+#4.1 getPages part Two<br/>
+#4.2 extractJob part One<br/>
+#4.3 extractJob part Two<br/>
+#4.4 Writing Jobs<br/>
+#4.5 Channels Time<br/>
+#4.6 More Channels Baby<br/>
+#4.7 Recap<br/>
+
+### #5 WEB SERVER WITH ECHO
+#5.0 Setup Part One<br/>
+#5.1 Setup Part Two<br/>
+#5.2 File Download<br/>
+#5.3 Conclusions<br/>
