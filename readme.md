@@ -24,7 +24,7 @@
 #1.11 Structs [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%231_THEORY/%231.11_Structs.md)]<br/>
 
 ### #2 BANK & DICTIONARY PROJECTS
-#2.0 Account + NewAccount<br/>
+#2.0 Account + NewAccount [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%232_BANK_&_DICTIONARY_PROJECTS/%232.0_Account_+_NewAccount.md)]<br/>
 #2.1 Methods part One<br/>
 #2.2 Methods part Two<br/>
 #2.3 Finishing Up<br/>

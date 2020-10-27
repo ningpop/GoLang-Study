@@ -140,4 +140,5 @@ func main() {
 	/* #2.0 Account + NewAccount */
 	account := accounts.NewAccount("ningpop")
 	fmt.Println(account)
+	// account.balance = 10 // 에러, 사용 불가
 }
