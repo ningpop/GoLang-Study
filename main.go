@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/ningpop/learngo/accounts"
 	"github.com/ningpop/learngo/something"
 )
 
@@ -135,4 +136,8 @@ func main() {
 	// ningpop := person{name: "ningpop", age: 25, favFood: favFood} // 사용 가능
 	// ningpop := person{name: "ningpop", 25, favFood} // 불가능, 에러 발생
 	fmt.Println(ningpop)
+
+	/* #2.0 Account + NewAccount */
+	account := accounts.NewAccount("ningpop")
+	fmt.Println(account)
 }
