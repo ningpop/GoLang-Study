@@ -141,4 +141,9 @@ func main() {
 	account := accounts.NewAccount("ningpop")
 	fmt.Println(account)
 	// account.balance = 10 // 에러, 사용 불가
+
+	/* #2.1 Methods part One */
+	// account := accounts.NewAccount("ningpop") // #2.0에서 이미 생성
+	account.Deposit(10)
+	fmt.Println(account.Balance())
 }
