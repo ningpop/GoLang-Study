@@ -2,6 +2,7 @@ package main // 사용하는 패키지명
 
 import (
 	"fmt"
+	"log"
 	"strings"
 
 	"github.com/ningpop/learngo/accounts"
@@ -145,5 +146,12 @@ func main() {
 	/* #2.1 Methods part One */
 	// account := accounts.NewAccount("ningpop") // #2.0에서 이미 생성
 	account.Deposit(10)
+	fmt.Println(account.Balance())
+
+	/* #2.2 Methods part Two */
+	err := account.Withdraw(20)
+	if err != nil {
+		log.Fatalln(err)
+	}
 	fmt.Println(account.Balance())
 }
