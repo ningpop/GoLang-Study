@@ -27,7 +27,7 @@
 #2.0 Account + NewAccount [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%232_BANK_&_DICTIONARY_PROJECTS/%232.0_Account_+_NewAccount.md)]<br/>
 #2.1 Methods part One [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%232_BANK_&_DICTIONARY_PROJECTS/%232.1_Methods_part_One.md)]<br/>
 #2.2 Methods part Two [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%232_BANK_&_DICTIONARY_PROJECTS/%232.2_Methods_part_Two.md)]<br/>
-#2.3 Finishing Up<br/>
+#2.3 Finishing Up [[Summary](https://github.com/ningpop/GoLang-Study/blob/master/Summary/%232_BANK_&_DICTIONARY_PROJECTS/%232.3_Finishing_Up.md)]<br/>
 #2.4 Dictionary part One<br/>
 #2.5 Add Method<br/>
 #2.6 Update Delete<br/>
