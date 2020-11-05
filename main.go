@@ -5,6 +5,7 @@ import (
 	"strings"
 
 	"github.com/ningpop/learngo/accounts"
+	"github.com/ningpop/learngo/mydict"
 	"github.com/ningpop/learngo/something"
 )
 
@@ -155,4 +156,13 @@ func main() {
 
 	/* #2.3 Finishing Up */
 	fmt.Println(account)
+
+	/* #2.4 Dictionary part One */
+	dictionary := mydict.Dictionary{"first": "First word"}
+	definition, err := dictionary.Search("second")
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println(definition)
+	}
 }
